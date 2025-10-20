@@ -2,17 +2,17 @@
 This is mini data preprocessing project which makes the task simpler by interactively asking user for each step.
 
 # Features
-1.Interactive: The script asks you what you want to do (e.g., "Do you want to run imputation?").
-2.Load Your Data: You can type in a path to your own .csv file.
-3.Sample Data: If you don't have a file, just press Enter to use a built-in sample.
-4.Fix Missing Data (Imputation): Automatically finds missing data (NaNs) and fills them using the mean, median, or mode as guided by that particular user input.
-5.Encode Categories:
-    Ordinal Encoding: Allows user to turn text into numbers that have an order (like "Small" = 0, "Medium" = 1, "Large" = 2) as taken as input from user itself.
-    One-Hot Encoding: Allows user to turn text into simple 0 or 1 columns (like "Color\_Red", "Color\_Blue") as taken as input from user.
-6.Fit and Transform:
-    The script "fits" by learning the statistics from your data (like the average 'age' or the list of 'colors').
-    It then "transforms" your data using these rules.
-    It also shows how to use these same rules to transform new data, which is important for machine learning.
+1.Interactive: The script asks you what you want to do (e.g., "Do you want to run imputation?").  
+2.Load Your Data: You can type in a path to your own .csv file.  
+3.Sample Data: If you don't have a file, just press Enter to use a built-in sample.  
+4.Fix Missing Data (Imputation): Automatically finds missing data (NaNs) and fills them using the mean, median, or mode as guided by that particular user input.  
+5.Encode Categories:  
+    Ordinal Encoding: Allows user to turn text into numbers that have an order (like "Small" = 0, "Medium" = 1, "Large" = 2) as taken as input from user itself.  
+    One-Hot Encoding: Allows user to turn text into simple 0 or 1 columns (like "Color\_Red", "Color\_Blue") as taken as input from user.  
+6.Fit and Transform:  
+    The script "fits" by learning the statistics from your data (like the average 'age' or the list of 'colors').  
+    It then "transforms" your data using these rules.  
+    It also shows how to use these same rules to transform new data, which is important for machine learning.  
 
 # How to Use
 
