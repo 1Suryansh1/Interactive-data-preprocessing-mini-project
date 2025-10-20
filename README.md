@@ -1,5 +1,6 @@
 # Interactive Data Preprocessing Project
-This is mini data preprocessing project which makes the task simpler by interactively asking user for each step.
+This is mini data preprocessing project which makes the task simpler by interactively asking user for each step.  
+A sciket-learn inspired logical approach .. without using sciket-learn in code at all
 
 # Features
 1.Interactive: The script asks you what you want to do (e.g., "Do you want to run imputation?").  
